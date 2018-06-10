@@ -1,0 +1,41 @@
+body {
+    background-image: url(background.jpeg);
+    background-repeat: repeat-x repeat-y;
+}
+
+#logo{
+    text-align: center;
+}
+
+#container{
+	display: -moz-box;
+	display: -webkit-box;
+    width: 500px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#logo > h1{
+    display:inline;
+    text-shadow: 5px 5px 5px gray;
+    font-family: 黑体;
+}
+
+#logo-img {
+    width: 200px;
+    height: 100px;
+    display: inline;
+}
+#pics {
+    border: 10px green;
+}
+#pics > img {
+    width: 100px;
+    height: 100px;
+}
+
+#article-main {
+    
+}
