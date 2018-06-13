@@ -1,20 +1,21 @@
 body {
     background-image: url(background.jpeg);
-    background-repeat: repeat-x repeat-y;
+    background-repeat: repeat
 }
 
-#logo{
+header {
+}
+
+.container {
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#logo {
     text-align: center;
-}
-
-#container{
-	display: -moz-box;
-	display: -webkit-box;
-    width: 500px;
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
 }
 
 #logo > h1{
@@ -28,14 +29,37 @@ body {
     height: 100px;
     display: inline;
 }
-#pics {
-    border: 10px green;
+
+.article-main {
+    flex: 2;
+    margin-right: 4%;
 }
-#pics > img {
-    width: 100px;
-    height: 100px;
+.article-main li {
+    list-style-type: circle;
+    color: red;
+}
+.contact {
+    flex: 1;
+    /* min-width: 250px; */
+}
+.contact ul{
+    margin: 0;
+    padding: 0;
+}
+.contact li {
+    list-style-type: None;
+}
+.contact img{
+    width: 100%;
+    margin: 0;
+}
+.contact .description{
+    display: block;
+    text-align: center;
+}
+.contact .description::after{
+    content: '微信扫码';
+    font: 10px 黑体;
+    color: gray;
 }
 
-#article-main {
-    
-}
