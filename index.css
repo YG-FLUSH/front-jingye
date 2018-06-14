@@ -15,11 +15,13 @@ header {
 }
 
 #logo {
-    text-align: center;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #logo > h1{
-    display:inline;
+    display:inline-block;
     text-shadow: 5px 5px 5px gray;
     font-family: 黑体;
 }
@@ -27,7 +29,7 @@ header {
 #logo-img {
     width: 200px;
     height: 100px;
-    display: inline;
+    display: inline-block;
 }
 
 .article-main {
